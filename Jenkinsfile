@@ -1,7 +1,7 @@
 pipeline {
     agent any
 stages {
-        stage('Clone Repository') {
+        stage('Clone the Repository') {
             steps {
                 git url: 'https://github.com/ywahab/flask-app2.git', branch: 'main'
             }
